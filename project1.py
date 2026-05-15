@@ -4,7 +4,6 @@ def check_password_strength(password):
     Returns: "Strong", "Medium", or "Weak"
     """
     
-    # Input validation - reject empty or too short passwords
     if not password or len(password) < 8:
         return "Weak"
     
